@@ -4,7 +4,7 @@
 }
 
 .banner {
-    background-color: lightblue;
+    background-color: aliceblue;
     height: 80vh;
     min-height: 600px;
     background-image: url("images/");
@@ -57,7 +57,7 @@
 
 .nav span:hover {
     transform: scale(1.1);
-    background-color: aliceblue;
+    background-color: lightblue
 }
 
 .contact {
@@ -70,7 +70,7 @@
 
 .contact:hover {
     transform: scale(1.1);
-    background-color: aliceblue;
+    background-color: lightblue
 }
 
 .main {
@@ -84,41 +84,42 @@
     font-weight: bold;
 }
 
-.section1 {
+.section1, .section2 {
     display: flex;
-    height: 350px;
+    min-height: 350px;
     background: azure;
 }
 
-.section1 .left {
+.section1 .left, .section2 .right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section1 .left h1 {
+.section1 h1, .section2 h1 {
     font-size: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
+    
 }
 
-.section1 .left p {
+.section1 p, .section2 p {
     color: black;
     line-height: 1.8;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 16px;
 }
 
-.section1 .left button {
+.section1 button, .section2 button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 150px;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 
-
-.section1-text {
+.section1-text, .section2-text {
+    margin: auto;
     width: 70%;
 }
 
@@ -126,52 +127,69 @@
     flex: 1;
 }
 
-.section1 .right img {
+.section1 img, .section2 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-
-.section2 {
-    display: flex;
-    height: 350px;
-    background-color: azure;
+.client-image {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
 }
 
-.section2 .right {
+.client-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.testimonials {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-color: aliceblue;
+    padding: 50px;
 }
 
-.section2 .right h1 {
-    font-size: 40px;
-    margin-bottom: 8px;
+.testimonials h1 {
+    color: #a0a1a2;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.section2 .right p {
-    color: black;
+.clients {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clients .client {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+}
+
+.client p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #848391;
     line-height: 1.8;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 16px;
 }
 
-.section2 .right button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    border-radius: 5px;
-
+.client .client-image {
+    margin-bottom: 30px;
 }
 
-.section2-text {
-    width: 70%;
+.client .details {
+    text-align: center;
 }
 
-.section2 .left img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.client h4 {
+    color: #a0a1a2;
+    margin-top: 8px;
 }
