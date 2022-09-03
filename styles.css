@@ -69,7 +69,7 @@
 }
 
 .logo-img {
-    border: 3px solid black;
+    border: 3px solid #eb5e28;
     background-color: #FDFFFC;
     height: 50px;
     width: auto;
@@ -167,10 +167,15 @@
     justify-content: center;
     width: 150px;
     border-radius: 5px;
+    transition: 0.2s all ease-in-out;
     cursor: pointer;
     font-family: 'kaushan_scriptregular', 'ohio_kraftregular', 'ryujin_attackregular',
     system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+.section1 button:hover, .section2 button:hover {
+    transform: scale(1.1);
+    background-color: #eb5e28;
 }
 
 .section1-text, .section2-text {
