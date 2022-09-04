@@ -379,3 +379,64 @@ animation-duration: 1.5s;
 from {opacity: .4}
 to {opacity: 1}
 }
+
+.footer {
+    margin-top: 18px;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.footer .logo {
+    margin-bottom: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    font-size: 20px;
+    color: #fdfffc;
+    font-family: 'ohio_kraftregular', 'kaushan_scriptregular', 'ryujin_attackregular',
+    system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-link {
+    padding: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.foot-link:hover {
+    transform: scale(1.1);
+    color: #eb5e28;
+}
+
+.social {
+    margin-top: 30px;
+    display: flex;
+}
+
+.media-icon {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.media-icon:hover {
+  /* on hover - scale to this x,y size */
+  transform: scale(1.15,1.15);
+  /* property values: name, duration, iteration, timing-function */
+  animation: jiggle 0.5s infinite linear;
+}
+
+@keyframes jiggle {
+  /* start at 0deg and this scale size.
+   scale size is repeated here to maintain smooth scaling */
+  0% {transform: rotate(0deg) scale(1.15,1.15);}
+  /* midway rotate 2deg right */
+  50% {transform: rotate(2deg) scale(1.15,1.15);}
+  /* end rotate -2deg left */
+  100% {transform: rotate(-2deg) scale(1.15,1.15)}
+}
