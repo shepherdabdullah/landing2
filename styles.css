@@ -444,12 +444,23 @@ to {opacity: 1}
 
 @media (max-width: 575.98px) {
 
-    .section1 {
+    .header {
         flex-direction: column;
         height: auto;
     }
 
-    .section1 .left {
+    .banner {
+        width: fit-content;
+    }
+
+
+
+    .section1, .section2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1 .left, .section2 .right {
         padding-bottom: 20px;
         padding-top: 20px;
     }
