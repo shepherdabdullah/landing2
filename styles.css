@@ -458,13 +458,20 @@ to {opacity: 1}
         margin-bottom: 10px;
     }
 
+    .nav span {
+        padding: 0px;
+    }
+
+
     .main {
         display: flex;
         justify-content: center;
         align-items: center;
         background-position: center;
         background-size: 100%;
+        margin-left: 25px;
     }
+
 
     .main span {
         display: flex;
@@ -480,14 +487,18 @@ to {opacity: 1}
         height: auto;
         justify-content: center;
         align-items: center;
+        margin-left: 25px;
     }
 
     .section1 .left, .section2 .right {
         padding-bottom: 20px;
         padding-top: 20px;
+        margin-left: 25px;
     }
 
     .section1 .right, .section2 .left {
+        margin-left: 25px;
+
     }
 
     .section1 button, .section2 button {
@@ -499,15 +510,24 @@ to {opacity: 1}
         font-size: 18px;
     }
 
+    .section3 h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
     .clients {
         flex-direction: column;
+        margin-left: 25px;
     }
     .clients .client {
         margin-top: 50px;
+        margin-left: 25px;
     }
 
     .section4 {
-
+        margin-left: 45px;
     }
 
     .section4 div {
@@ -524,6 +544,10 @@ to {opacity: 1}
         justify-content: center;
         align-items: center;
         width: 110%;
+    }
+
+    .foot-link {
+        padding: 5px;
     }
 
 }
