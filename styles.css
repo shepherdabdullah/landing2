@@ -482,6 +482,15 @@ to {opacity: 1}
         margin-left: 25px;
     }
 
+    .section1 button, .section2 button {
+        display : flex;
+        justify-content: center ;
+        align-items: center ;
+        text-align: center ;
+        margin: 0px auto 0px;
+        font-size: 18px;
+    }
+
     .section4 {
         flex-wrap: wrap;
     }
