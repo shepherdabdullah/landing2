@@ -458,10 +458,18 @@ to {opacity: 1}
     }
 
     .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
         background-size: 100%;
     }
 
     .main span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         font-size: 30px;   
     }
 
@@ -469,6 +477,8 @@ to {opacity: 1}
     .section1, .section2 {
         flex-direction: column;
         height: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .section1 .left, .section2 .right {
@@ -490,20 +500,6 @@ to {opacity: 1}
         font-size: 18px;
     }
 
-    .section4 {
-        flex-wrap: wrap;
-    }
-
-    .section4 div {
-        width: 100%;   
-        flex: 0.5;
-        flex-basis: 50%;
-    }
-
-    .slideshow-container {
-        margin-left: 25px;
-    }
-
     .clients {
         flex-direction: column;
         margin-left: 25px;
@@ -511,5 +507,28 @@ to {opacity: 1}
     .clients .client {
         margin-top: 50px;
     }
+
+    .section4 {
+
+    }
+
+    .section4 div {
+
+    }
+
+    .slideshow-container {
+        margin-left: 25px;
+        width: 100%;
+    }
     
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110%;
+    }
+
 }
+
+
