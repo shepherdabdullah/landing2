@@ -492,8 +492,13 @@ to {opacity: 1}
         flex-basis: 50%;
     }
 
+    .slideshow-container {
+        margin-left: 25px;
+    }
+
     .clients {
         flex-direction: column;
+        margin-left: 25px;
     }
     .clients .client {
         margin-top: 50px;
