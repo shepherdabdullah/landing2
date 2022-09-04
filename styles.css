@@ -455,6 +455,7 @@ to {opacity: 1}
         float: right;
         height: auto;
         font-size: 15px;
+        margin-bottom: 10px;
     }
 
     .main {
@@ -484,11 +485,9 @@ to {opacity: 1}
     .section1 .left, .section2 .right {
         padding-bottom: 20px;
         padding-top: 20px;
-        margin-left: 25px;
     }
 
     .section1 .right, .section2 .left {
-        margin-left: 25px;
     }
 
     .section1 button, .section2 button {
@@ -502,7 +501,6 @@ to {opacity: 1}
 
     .clients {
         flex-direction: column;
-        margin-left: 25px;
     }
     .clients .client {
         margin-top: 50px;
@@ -517,7 +515,6 @@ to {opacity: 1}
     }
 
     .slideshow-container {
-        margin-left: 25px;
         width: 100%;
     }
     
