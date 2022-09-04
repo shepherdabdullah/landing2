@@ -445,17 +445,24 @@ to {opacity: 1}
 @media (max-width: 575.98px) {
 
     .header {
-        height: auto;
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     .nav {
         flex-wrap: wrap;
+        float: right;
+
+        height: auto;
+    }
+
+    .nav span {
+
     }
 
     .main {
         background-size: 100%;
-        background-position:center;
     }
 
     .main span {
@@ -473,6 +480,10 @@ to {opacity: 1}
         padding-top: 20px;
     }
 
+    .section1 .right, .section2 .left {
+        margin-left: 25px;
+    }
+
     .section4 {
         flex-wrap: wrap;
     }
@@ -487,5 +498,9 @@ to {opacity: 1}
     }
     .clients .client {
         margin-top: 50px;
+    }
+
+    .footer-nav {
+        width: 100%;
     }
 }
