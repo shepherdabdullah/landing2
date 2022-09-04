@@ -440,3 +440,33 @@ to {opacity: 1}
   /* end rotate -2deg left */
   100% {transform: rotate(-2deg) scale(1.15,1.15)}
 }
+
+
+@media (max-width: 575.98px) {
+
+    .section1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1 .left {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .section4 {
+        flex-wrap: wrap;
+    }
+
+    .section4 div {
+        flex: 0.5;
+        flex-basis: 50%;
+    }
+
+    .clients {
+        flex-direction: column;
+    }
+    .clients .client {
+        margin-top: 50px;
+    }
+}
