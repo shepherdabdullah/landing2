@@ -456,11 +456,7 @@ to {opacity: 1}
         flex-wrap: wrap;
         float: right;
         height: auto;
-        font-size: 15px;
-    }
-
-    .nav span {
-
+        font-size: 10px;
     }
 
     .main {
