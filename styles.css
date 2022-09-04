@@ -453,10 +453,9 @@ to {opacity: 1}
     }
 
     .nav {
-        flex-wrap: wrap;
         float: right;
         height: auto;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .main {
@@ -476,6 +475,7 @@ to {opacity: 1}
     .section1 .left, .section2 .right {
         padding-bottom: 20px;
         padding-top: 20px;
+        margin-left: 25px;
     }
 
     .section1 .right, .section2 .left {
