@@ -449,10 +449,20 @@ to {opacity: 1}
         height: auto;
     }
 
-    .banner {
-        width: fit-content;
+    .nav {
+        flex-wrap: wrap;
     }
 
+    .main {
+        background-size: auto;
+        background-position:center;
+        height: auto;
+        width: auto;
+    }
+
+    .main span {
+        font-size: 40px;   
+    }
 
 
     .section1, .section2 {
