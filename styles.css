@@ -482,7 +482,9 @@ to {opacity: 1}
     }
 
     .nav span {
-        padding: 0px;
+        background-color: #eb5e28;
+        padding: 4px 15px;
+        border-radius: 5px;
     }
 
 
@@ -502,7 +504,7 @@ to {opacity: 1}
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 30px;   
+        font-size: 30px; 
     }
 
 
