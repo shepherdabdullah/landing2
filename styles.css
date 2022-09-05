@@ -460,7 +460,7 @@ to {opacity: 1}
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 
     * {
         margin: 0px;
@@ -471,19 +471,19 @@ to {opacity: 1}
         flex-direction: column;
         height: auto;
         top: 0;
-        width: 100%;
     }
 
     .nav {
         float: right;
         height: auto;
-        font-size: 15px;
+        font-size: 16px;
+        font-weight: bold;
         margin-bottom: 10px;
     }
 
     .nav span {
         background-color: #eb5e28;
-        padding: 4px 15px;
+        padding: 4px 5px;
         border-radius: 5px;
     }
 
@@ -556,15 +556,22 @@ to {opacity: 1}
 
     }
 
-    .wrapper {
-        min-width: 100%;
+    .img-gallery-txt {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+
+    .slideshow-container {
+        transform: scale(1.2, 0.75);
+        -ms-transform: scale(1.2, 0.75);
+        -webkit-transform: scale(1.2, 0.75);
     }
 
     .footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
     }
 
     .foot-link {
